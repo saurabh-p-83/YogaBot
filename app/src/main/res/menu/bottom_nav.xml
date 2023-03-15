@@ -5,7 +5,7 @@
     >
     <item android:title="Home"
         android:id="@+id/home"
-        android:icon="@drawable/home"/>
+        android:icon="@drawable/ic_baseline_home_24"/>
     <item
         android:id="@+id/chatbot"
         android:icon="@drawable/chat"
@@ -15,6 +15,6 @@
         android:id="@+id/dietplan"
         android:icon="@drawable/dietplan" />
     <item android:title="Profile"
-        android:id="@+id/Profile"
+        android:id="@+id/profile"
         android:icon="@drawable/profile" />
 </menu>

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:backgroundTintMode="multiply"
     tools:context=".HomeFragment">
 
@@ -16,13 +16,13 @@
         app:layout_constraintBottom_toTopOf="@id/scrollview"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65999997" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
         android:id="@+id/scrollview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fillViewport="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,9 +40,10 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="#FFFFFF"
-                android:elevation="8dp"
-                app:cardCornerRadius="15dp">
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#EBEFED"
+                android:elevation="10dp"
+                app:cardCornerRadius="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -54,6 +55,7 @@
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/bebas_neue"
                         android:gravity="center"
                         android:text="YOGA FOR FITNESS"
                         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
@@ -77,9 +79,10 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="#FFFFFF"
-                android:elevation="8dp"
-                app:cardCornerRadius="15dp">
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#EBEFED"
+                android:elevation="10dp"
+                app:cardCornerRadius="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -91,6 +94,7 @@
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/bebas_neue"
                         android:gravity="center"
                         android:text="YOGA FOR WEIGHT LOSS"
                         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
@@ -103,20 +107,21 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/fatlossimg"
-                         />
+                        android:src="@drawable/fatlossimg" />
 
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="#FFFFFF"
-                android:elevation="8dp"
-                app:cardCornerRadius="15dp">
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#EBEFED"
+                android:elevation="10dp"
+                app:cardCornerRadius="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -128,6 +133,7 @@
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/bebas_neue"
                         android:gravity="center"
                         android:text="YOGA FOR MENTAL HEALTH"
                         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
@@ -140,20 +146,21 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/stressrliefimg"
-                         />
+                        android:src="@drawable/stressrliefimg" />
 
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="#FFFFFF"
-                android:elevation="8dp"
-                app:cardCornerRadius="15dp">
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#EBEFED"
+                android:elevation="10dp"
+                app:cardCornerRadius="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -165,6 +172,7 @@
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/bebas_neue"
                         android:gravity="center"
                         android:text="YOGA FOR HEART HEALTH"
                         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
@@ -177,20 +185,21 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/hearthealthimg"
-                         />
+                        android:src="@drawable/hearthealthimg" />
 
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="#FFFFFF"
-                android:elevation="8dp"
-                app:cardCornerRadius="15dp">
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#EBEFED"
+                android:elevation="10dp"
+                app:cardCornerRadius="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -202,6 +211,7 @@
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/bebas_neue"
                         android:gravity="center"
                         android:text="YOGA FOR SLEEP IMPROVEMENT"
                         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
@@ -214,20 +224,21 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/sleepingimg"
-                        />
+                        android:src="@drawable/sleepingimg" />
 
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="#FFFFFF"
-                android:elevation="8dp"
-                app:cardCornerRadius="15dp">
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#EBEFED"
+                android:elevation="10dp"
+                app:cardCornerRadius="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -239,6 +250,7 @@
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/bebas_neue"
                         android:gravity="center"
                         android:text="YOGA FOR CHILDREN"
                         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
@@ -256,14 +268,16 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="#FFFFFF"
-                android:elevation="8dp"
-                app:cardCornerRadius="15dp">
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#EBEFED"
+                android:elevation="10dp"
+                app:cardCornerRadius="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -275,6 +289,7 @@
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/bebas_neue"
                         android:gravity="center"
                         android:text="YOGA FOR PREGNANT WOMEN"
                         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
@@ -292,6 +307,8 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
+
 
         </LinearLayout>
     </ScrollView>
