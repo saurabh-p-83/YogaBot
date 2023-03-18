@@ -90,7 +90,7 @@ HomeFragment extends Fragment {
         sendMsgFab = rootView.findViewById(R.id.idFABSend);
         chatsModelArrayList = new ArrayList<>();
         chatRVAdapter = new ChatRVAdapter(chatsModelArrayList,this);
-        LinearLayoutManager manager = new LinearLayoutManager(this);
+        LinearLayoutManager manager = new LinearLayoutManager(getContext());
         chatsRV.setLayoutManager(manager);
         chatsRV.setAdapter(chatRVAdapter);
         sendMsgFab.setOnClickListener(new View.OnClickListener() {
