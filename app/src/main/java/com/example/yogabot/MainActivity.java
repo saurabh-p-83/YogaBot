@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new userProfile();
                         break;
                 }
-                getSupportFragmentManager().beginTransaction().replace(R.id.parent_layout , fragment).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainerView6 , fragment).commit();
                 return true;
             }
         });

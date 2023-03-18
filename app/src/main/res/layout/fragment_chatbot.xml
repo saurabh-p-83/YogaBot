@@ -1,17 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/back_color"
     tools:context=".chatbot">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="chatbot fragment view"
-        android:textSize="50sp"
-        android:gravity="center"
-        android:layout_gravity="center_vertical"/>
+        android:id="@+id/idRVchats"
+        android:layout_above="@+id/idRLMsg"/>
 
-</FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/idRLMsg">
+
+        <EditText
+            android:id="@+id/idEdtMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Message"
+            android:textColorHint="@color/white"
+            android:layout_toLeftOf="@id/idFABSend"
+            android:layout_margin="3dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:singleLine="true"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/idFABSend"
+            android:layout_margin="4dp"
+            app:fabCustomSize="45dp"
+            android:backgroundTint="@color/fab_color"
+            android:tint="@color/white"
+            android:src="@drawable/ic_send"/>
+    </RelativeLayout>
+</RelativeLayout>
