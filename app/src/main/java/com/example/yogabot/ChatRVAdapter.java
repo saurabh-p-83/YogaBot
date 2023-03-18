@@ -22,8 +22,6 @@ public class ChatRVAdapter extends RecyclerView.Adapter {
     }
 
     public ChatRVAdapter(ArrayList<ChatsModel> chatsModelArrayList, HomeFragment homeFragment) {
-        this.chatsModelArrayList = chatsModelArrayList;
-        this.context = context;
     }
 
     @NonNull
@@ -54,6 +52,18 @@ public class ChatRVAdapter extends RecyclerView.Adapter {
 
         }
 
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        switch (chatsModelArrayList.get(position).getSender()){
+            case "user":
+                return 0;
+            case "bot":
+                return 11;
+            default:
+                return -1;
+        }
     }
 
     @Override
