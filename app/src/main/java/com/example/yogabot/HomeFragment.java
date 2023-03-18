@@ -1,5 +1,6 @@
 package com.example.yogabot;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
 
@@ -31,7 +32,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class
 
 HomeFragment extends Fragment {
-    private View rootView;
     private RecyclerView chatsRV;
     private EditText usrMsgEdt;
     private FloatingActionButton sendMsgFab;
@@ -81,15 +81,17 @@ HomeFragment extends Fragment {
         }
     }
 
+    @SuppressLint("MissingInflatedId")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
         // Inflate the layout for this fragment
-        chatsRV = rootView.findViewById(R.id.idRVchats);
-        usrMsgEdt = rootView.findViewById(R.id.idEdtMsg);
-        sendMsgFab = rootView.findViewById(R.id.idFABSend);
+        chatsRV = (RecyclerView) view.findViewById(R.id .idRVchats);
+        usrMsgEdt = view.findViewById(R.id.idEdtMsg);
+        sendMsgFab = view.findViewById(R.id.idFABSend);
         chatsModelArrayList = new ArrayList<>();
-        chatRVAdapter = new ChatRVAdapter(chatsModelArrayList,this);
+        chatRVAdapter = new ChatRVAdapter(chatsModelArrayList,getContext());
         LinearLayoutManager manager = new LinearLayoutManager(getContext());
         chatsRV.setLayoutManager(manager);
         chatsRV.setAdapter(chatRVAdapter);
@@ -104,7 +106,7 @@ HomeFragment extends Fragment {
                 usrMsgEdt.setText("");
             }
         });
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        return view;
 
 
     }
