@@ -21,6 +21,11 @@ public class ChatRVAdapter extends RecyclerView.Adapter {
         this.context = context;
     }
 
+    public ChatRVAdapter(ArrayList<ChatsModel> chatsModelArrayList, HomeFragment homeFragment) {
+        this.chatsModelArrayList = chatsModelArrayList;
+        this.context = context;
+    }
+
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
