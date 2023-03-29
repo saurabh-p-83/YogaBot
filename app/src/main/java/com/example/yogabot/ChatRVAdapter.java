@@ -36,6 +36,7 @@ public class ChatRVAdapter extends RecyclerView.Adapter {
                 view = LayoutInflater.from(parent.getContext()).inflate(R.layout.bot_msg_rv_item,parent,false);
                 return new BotViewHolder(view);
         }
+
         return null;
     }
 
@@ -60,7 +61,7 @@ public class ChatRVAdapter extends RecyclerView.Adapter {
             case "user":
                 return 0;
             case "bot":
-                return 11;
+                return 1;
             default:
                 return -1;
         }

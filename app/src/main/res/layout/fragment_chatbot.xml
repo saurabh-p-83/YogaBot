@@ -4,8 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/back_color"
-    tools:context=".chatbot">
+    android:background="@color/skyblue"
+    tools:context=".chatbot"
+    android:layout_marginTop="10dp">
 
 
 
@@ -17,32 +18,34 @@
         android:layout_above="@+id/idRLMsg"/>
 
     <RelativeLayout
+        android:id="@+id/idRLMsg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:id="@+id/idRLMsg">
+        android:layout_alignParentBottom="true">
 
         <EditText
             android:id="@+id/idEdtMsg"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Message"
-            android:textColorHint="@color/white"
-            android:layout_toLeftOf="@id/idFABSend"
-            android:layout_margin="3dp"
+            android:layout_height="50dp"
             android:layout_centerInParent="true"
+            android:layout_margin="3dp"
+            android:background="@drawable/login_input_background"
+            android:layout_toLeftOf="@id/idFABSend"
+            android:singleLine="true"
+            android:hint="Enter Message"
             android:textColor="@color/white"
-            android:singleLine="true"/>
+            android:textColorHint="@color/white" />
+
         <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/idFABSend"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:id="@+id/idFABSend"
             android:layout_margin="4dp"
-            app:fabCustomSize="45dp"
             android:backgroundTint="@color/fab_color"
+            android:src="@drawable/ic_send"
             android:tint="@color/white"
-            android:src="@drawable/ic_send"/>
+            app:fabCustomSize="45dp" />
     </RelativeLayout>
 </RelativeLayout>

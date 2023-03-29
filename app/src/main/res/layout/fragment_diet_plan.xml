@@ -1,17 +1,326 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".dietPlan">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="dietplan fragment view"
-        android:textSize="50sp"
-        android:gravity="center"
-        android:layout_gravity="center_vertical"/>
+        tools:context=".dietPlan">
 
-</FrameLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:backgroundTint="#D84315"
+            app:layout_constraintBottom_toTopOf="@id/scrollview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/weightloss_dietplan"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#EBEFED"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/bebas_neue"
+                            android:gravity="center"
+                            android:text="WEIGHT LOSS DIET PLAN"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                            android:textColor="#FF1E1E"
+                            android:textSize="24sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/dp_weightloss"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/weightgain_dietplan"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#EBEFED"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/bebas_neue"
+                            android:gravity="center"
+                            android:text="DIET PLAN FOR WEIGHT GAIN"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                            android:textColor="#FF1E1E"
+                            android:textSize="24sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/dp_weightgain"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vegeterian_dietplan"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#EBEFED"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/bebas_neue"
+                            android:gravity="center"
+                            android:text="DIET PLAN FOR VEGETARIAN"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                            android:textColor="#FF1E1E"
+                            android:textSize="24sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView10"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/veg_dietplan"
+                            />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/hearthealth_dietplan"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#EBEFED"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/bebas_neue"
+                            android:gravity="center"
+                            android:text="DIET PLAN FOR HEART HEALTH"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                            android:textColor="#FF1E1E"
+                            android:textSize="24sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/dp_hearthealth"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/diabetes_dietplan"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#EBEFED"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/bebas_neue"
+                            android:gravity="center"
+                            android:text="DIET PLAN FOR DIABETES"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                            android:textColor="#FF1E1E"
+                            android:textSize="24sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/dp_diabetes"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pregnantwomenyoga_dietplan"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#EBEFED"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/bebas_neue"
+                            android:gravity="center"
+                            android:text="DIET PLAN FOR PREGNANT WOMEN"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                            android:textColor="#FF1E1E"
+                            android:textSize="24sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/dp_pregnant"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/children_dietplan"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#EBEFED"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/bebas_neue"
+                            android:gravity="center"
+                            android:text="DIET PLAN FOR  CHILDRENS"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                            android:textColor="#FF1E1E"
+                            android:textSize="24sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/dp_child"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

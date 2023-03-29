@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    tools:context=".signup">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:backgroundTintMode="screen"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        app:cardBackgroundColor="#3E4651"
+        app:cardCornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/sign_UP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="ENTER YOUR DETAIL HERE"
+                    android:textColor="#F36A01"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_UserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/login_input_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="ENTER YOUR NAME"
+                    android:inputType="textPersonName"
+                    android:padding="15dp"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:id="@+id/et_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/login_input_background"
+                    android:gravity="center"
+                    android:hint="GENDER"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp">
+
+                    <RadioButton
+                        android:id="@+id/maleRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male" />
+
+                    <RadioButton
+                        android:id="@+id/femaleRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Female" />
+
+                    <RadioButton
+                        android:id="@+id/otherRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Other" />
+
+                </RadioGroup>
+
+
+                <EditText
+                    android:id="@+id/et_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/login_input_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="ENTER YOUR AGE"
+                    android:inputType="number"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+                <EditText
+                    android:id="@+id/et_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/login_input_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="ENTER YOUR WEIGHT (kg)"
+                    android:inputType="number"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+                <EditText
+                    android:id="@+id/et_height"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/login_input_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="ENTER YOUR HEIGHT (cm)"
+                    android:inputType="numberDecimal"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/login_input_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="ENTER YOUR PHONE NUMBER"
+                    android:inputType="phone"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+
+
+                <EditText
+                    android:id="@+id/et_EmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/login_input_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="ENTER YOUR EMAIL ADRESS"
+                    android:inputType="textEmailAddress"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/login_input_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="ENTER YOUR PASSWORD"
+                    android:inputType="textPassword"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_confirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/login_input_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="CONFIRM YOUR PASSWORD"
+                    android:inputType="textPassword"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="15sp" />
+
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/signUp_button"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/login_button_background"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="sign up"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:backgroundTint="#FFFFFF"
+                    app:backgroundTintMode="multiply" />
+                <TextView
+                    android:onClick="login_signin"
+                    android:id="@+id/already_have_account_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="Already have account? Click here to  sign in"
+                    android:textColor="#F36A01"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
