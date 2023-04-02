@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    tools:context=".updateProfile">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:backgroundTintMode="screen"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        app:cardBackgroundColor="#3E4651"
+        app:cardCornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="UPDATE YOUR DETAIL"
+                    android:textColor="#F36A01"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/id_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/login_input_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="ENTER YOUR PREVIOUS EMAIL ID"
+                    android:inputType="phone"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/id_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/login_input_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="ENTER YOUR NAME"
+                    android:inputType="textPersonName"
+                    android:padding="15dp"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+
+
+                <EditText
+                    android:id="@+id/id_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/login_input_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="ENTER YOUR AGE"
+                    android:inputType="number"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+                <EditText
+                    android:id="@+id/id_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/login_input_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="ENTER YOUR WEIGHT (kg)"
+                    android:inputType="number"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+                <EditText
+                    android:id="@+id/id_height"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/login_input_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="ENTER YOUR HEIGHT (cm)"
+                    android:inputType="numberDecimal"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/id_phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/login_input_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="ENTER YOUR PHONE NUMBER"
+                    android:inputType="phone"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+
+
+
+                <com.google.android.material.button.MaterialButton
+                   android:onClick="updateMyProfile"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/login_button_background"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="UPDATE"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:backgroundTint="#FFFFFF"
+                    app:backgroundTintMode="multiply" />
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

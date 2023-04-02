@@ -107,7 +107,7 @@ public class signup extends AppCompatActivity {
         });
     }
 
-    public void login_signin(View view) {
+    public void signup_signin(View view) {
         Intent intent = new Intent(signup.this, login.class);
         startActivity(intent);
     }

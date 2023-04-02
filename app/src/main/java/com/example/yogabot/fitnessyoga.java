@@ -18,8 +18,39 @@ public class fitnessyoga extends AppCompatActivity {
 
     }
 
-    public void malasana_ocl(View view) {
-        Intent intent = new Intent(fitnessyoga.this, signup.class);
+
+    public void tadasana_ocl(View view) {
+        Intent intent = new Intent(fitnessyoga.this, phalakasana_pose.class);
+        startActivity(intent);
+    }
+
+    public void virabhadrasana_ocl(View view) {
+        Intent intent = new Intent(fitnessyoga.this, virabhadrasana_pose.class);
+        startActivity(intent);
+    }
+
+    public void vrkasana_ocl(View view) {
+        Intent intent = new Intent(fitnessyoga.this, virkshasana_pose.class);
+        startActivity(intent);
+    }
+
+    public void trikonasana_ocl(View view) {
+        Intent intent = new Intent(fitnessyoga.this, trikonasana_pose.class);
+        startActivity(intent);
+    }
+
+    public void bhujangasana_ocl(View view) {
+        Intent intent = new Intent(fitnessyoga.this, bharadavasana_pose.class);
+        startActivity(intent);
+    }
+
+    public void setuBandhaSarvangasana_ocl(View view) {
+        Intent intent = new Intent(fitnessyoga.this, setu_bandhasana_pose.class);
+        startActivity(intent);
+    }
+
+    public void paschimottasana_ocl(View view) {
+        Intent intent = new Intent(fitnessyoga.this, pashimottanasana.class);
         startActivity(intent);
     }
 }

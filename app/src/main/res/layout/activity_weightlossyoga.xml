@@ -47,42 +47,333 @@
                 android:layout_margin="10dp">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:layout_marginEnd="5dp"
                     android:padding="1dp"
                     android:layout_weight="5">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Navasana (Boat Pose)"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
-                        android:text="@string/malasanamessage"
+                        android:text="This pose is highly effective for a strong core. It also improves metabolism and reduces belly fat. "
                         android:textColor="#000000"
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/boat_pose"
+                    android:layout_weight="20"/>
+            </LinearLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#6D7E80">
+
+
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="5dp"
+                    android:padding="1dp"
+                    android:layout_weight="5">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="3st line here"
+                        android:text="Phalakasana (Plank Pose)"
+                        android:textColor="#E82B2B"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:padding="1dp"
+                        android:text="This pose helps reduce abdominal fat and improves core and shoulder strength. "
                         android:textColor="#000000"
-                        android:textSize="14sp" />
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:src="@drawable/malasanaimg"
+                    android:layout_weight="20"/>
+            </LinearLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#6D7E80">
+
+
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="5dp"
+                    android:padding="1dp"
+                    android:layout_weight="5">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Virabhadrasana 1(Warrior 1 Pose )"
+                        android:textColor="#E82B2B"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:padding="1dp"
+                        android:text="It is a popular beginner yoga pose, especially among women for weight loss. "
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/malasanaimg"
+                    android:layout_weight="20"/>
+            </LinearLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#6D7E80">
+
+
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="5dp"
+                    android:padding="1dp"
+                    android:layout_weight="5">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Virabhadrasana 2 (Warrior 2 Pose)"
+                        android:textColor="#E82B2B"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:padding="1dp"
+                        android:text="It is another popular yoga pose for weight loss that targets the legs, hips, and thighs. "
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/malasanaimg"
+                    android:layout_weight="20"/>
+            </LinearLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#6D7E80">
+
+
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="5dp"
+                    android:padding="1dp"
+                    android:layout_weight="5">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dhanurasana (Bow Pose)"
+                        android:textColor="#E82B2B"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:padding="1dp"
+                        android:text="It is an excellent yoga pose for weight loss that targets the abs, thighs, and arms. "
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/malasanaimg"
+                    android:layout_weight="20"/>
+            </LinearLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#6D7E80">
+
+
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="5dp"
+                    android:padding="1dp"
+                    android:layout_weight="5">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chair Pose (Utkatasana)"
+                        android:textColor="#E82B2B"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:padding="1dp"
+                        android:text="Chair pose or Utkatasana is a great yoga pose for weight loss that targets the thighs, hips, and lower back.  "
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/malasanaimg"
+                    android:layout_weight="20"/>
+            </LinearLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#6D7E80">
+
+
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="5dp"
+                    android:padding="1dp"
+                    android:layout_weight="5">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Setu Bandhasana (Bridge Pose )"
+                        android:textColor="#E82B2B"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:padding="1dp"
+                        android:text=" Bridge pose or Setu Bandhasana is an excellent yoga pose for weight loss that targets the abs, thighs, and hips.  "
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/setu_bandha"
                     android:layout_weight="20"/>
             </LinearLayout>
 
@@ -110,313 +401,29 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Bhujangasana (Cobra Pose)"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
-                        android:text="@string/malasanamessage"
+                        android:text="Cobra pose or Bhujangasana is an excellent yoga pose for weight loss that targets the abs, chest, and shoulders."
                         android:textColor="#000000"
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
+                    android:src="@drawable/bhujangasana_pose"
                     android:layout_weight="20"/>
             </LinearLayout>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
-                android:background="#6D7E80">
-
-
-            </TableRow>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
-                        android:textColor="#E82B2B"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="1dp"
-                        android:padding="1dp"
-                        android:text="@string/malasanamessage"
-                        android:textColor="#000000"
-                        android:textSize="14sp"
-                        android:textStyle="italic" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
-                </LinearLayout>
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
-            </LinearLayout>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
-                android:background="#6D7E80">
-
-
-            </TableRow>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
-                        android:textColor="#E82B2B"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="1dp"
-                        android:padding="1dp"
-                        android:text="@string/malasanamessage"
-                        android:textColor="#000000"
-                        android:textSize="14sp"
-                        android:textStyle="italic" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
-                </LinearLayout>
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
-            </LinearLayout>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
-                android:background="#6D7E80">
-
-
-            </TableRow>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
-                        android:textColor="#E82B2B"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="1dp"
-                        android:padding="1dp"
-                        android:text="@string/malasanamessage"
-                        android:textColor="#000000"
-                        android:textSize="14sp"
-                        android:textStyle="italic" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
-                </LinearLayout>
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
-            </LinearLayout>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
-                android:background="#6D7E80">
-
-
-            </TableRow>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
-                        android:textColor="#E82B2B"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="1dp"
-                        android:padding="1dp"
-                        android:text="@string/malasanamessage"
-                        android:textColor="#000000"
-                        android:textSize="14sp"
-                        android:textStyle="italic" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
-                </LinearLayout>
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
-            </LinearLayout>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
-                android:background="#6D7E80">
-
-
-            </TableRow>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
-                        android:textColor="#E82B2B"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="1dp"
-                        android:padding="1dp"
-                        android:text="@string/malasanamessage"
-                        android:textColor="#000000"
-                        android:textSize="14sp"
-                        android:textStyle="italic" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
-                </LinearLayout>
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
-            </LinearLayout>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
-                android:background="#6D7E80">
-
-
-            </TableRow>
 
 
         </LinearLayout>

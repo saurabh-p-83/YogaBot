@@ -40,53 +40,47 @@
             android:orientation="vertical">
 
 
-
             <LinearLayout
                 android:id="@+id/malasana"
-                android:onClick="malasana_ocl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="tadasana_ocl"
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="5"
                     android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
+                    android:padding="1dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Tadasana (Mountain Pose)"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
-                        android:text="@string/malasanamessage"
+                        android:text=" This is a foundational pose that can help to improve posture, balance, and focus. "
                         android:textColor="#000000"
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
+                    android:layout_weight="20"
+                    android:src="@drawable/tadasana" />
             </LinearLayout>
 
             <TableRow
@@ -100,47 +94,43 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="virabhadrasana_ocl"
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="5"
                     android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
+                    android:padding="1dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Virabhadrasana (Warrior Pose)"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
-                        android:text="@string/malasanamessage"
+                        android:text="This pose can help to build strength in the legs and core, and can be held for longer periods to increase intensity. "
                         android:textColor="#000000"
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
+                    android:layout_weight="20"
+                    android:src="@drawable/malasanaimg" />
             </LinearLayout>
 
             <TableRow
@@ -154,47 +144,43 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="vrkasana_ocl"
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="5"
                     android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
+                    android:padding="1dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Vrksasana (Tree Pose)"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
-                        android:text="@string/malasanamessage"
+                        android:text="This pose can help to improve balance and focus, and can also strengthen the legs and core."
                         android:textColor="#000000"
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
+                    android:layout_weight="20"
+                    android:src="@drawable/vrkasana_pose" />
             </LinearLayout>
 
             <TableRow
@@ -208,47 +194,43 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="trikonasana_ocl"
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="5"
                     android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
+                    android:padding="1dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Trikonasana (Triangle Pose)"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
-                        android:text="@string/malasanamessage"
+                        android:text="This pose can help to stretch the entire body and improve flexibility.  "
                         android:textColor="#000000"
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
+                    android:layout_weight="20"
+                    android:src="@drawable/trikonasana" />
             </LinearLayout>
 
             <TableRow
@@ -262,47 +244,43 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="bhujangasana_ocl"
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="5"
                     android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
+                    android:padding="1dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Bhujangasana (Cobra Pose)"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
-                        android:text="@string/malasanamessage"
+                        android:text="This pose can help to strengthen the back muscles and improve posture.  "
                         android:textColor="#000000"
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
+                    android:layout_weight="20"
+                    android:src="@drawable/bhujangasana_pose" />
             </LinearLayout>
 
             <TableRow
@@ -316,47 +294,43 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="setuBandhaSarvangasana_ocl"
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="5"
                     android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
+                    android:padding="1dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Setu Bandha Sarvangasana (Bridge Pose)"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
-                        android:text="@string/malasanamessage"
+                        android:text="This pose can help to strengthen the back, glutes, and legs, and can also help to improve flexibility in the spine. "
                         android:textColor="#000000"
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
+                    android:layout_weight="20"
+                    android:src="@drawable/setu_bandha" />
             </LinearLayout>
 
             <TableRow
@@ -370,47 +344,43 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="paschimottasana_ocl"
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="5"
                     android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
+                    android:padding="1dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Paschimottanasana (Seated Forward Bend )"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
-                        android:text="@string/malasanamessage"
+                        android:text="This pose can help to stretch the entire back of the body and improve flexibility in the hips and hamstrings. "
                         android:textColor="#000000"
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
+                    android:layout_weight="20"
+                    android:src="@drawable/paschimottanasana" />
             </LinearLayout>
 
             <TableRow

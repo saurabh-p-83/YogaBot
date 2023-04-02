@@ -240,7 +240,7 @@
                     app:backgroundTint="#FFFFFF"
                     app:backgroundTintMode="multiply" />
                 <TextView
-                    android:onClick="login_signin"
+                    android:onClick="signup_signin"
                     android:id="@+id/already_have_account_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

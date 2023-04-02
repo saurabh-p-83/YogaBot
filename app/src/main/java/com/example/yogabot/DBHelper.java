@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import androidx.annotation.Nullable;
+import java.util.ArrayList;
 
 public class DBHelper extends SQLiteOpenHelper {
     public static final String DB_Name = "YogaBotDB.db";
@@ -22,6 +22,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase MyDB, int oldVersion, int newVersion) {
+        MyDB.execSQL("drop Table if exists users");
         MyDB.execSQL("CREATE TABLE IF NOT EXISTS users (username TEXT, userAge INT, userHeight INT, userPhoneNumber TEXT, userEmailAddress TEXT PRIMARY KEY, userPassword TEXT)");
         MyDB.execSQL("ALTER TABLE users ADD COLUMN userWeight INT DEFAULT 0");
 
@@ -59,4 +60,41 @@ public class DBHelper extends SQLiteOpenHelper {
             return false;
 
     }
+    public ArrayList<UserDetail> fetchData(){
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery("SELECT * from users" , null);
+        ArrayList<UserDetail> arrUser = new ArrayList<>();
+        while (cursor.moveToNext()){
+            UserDetail user = new UserDetail();
+            user.setName(cursor.getString(0));
+            user.setAge(cursor.getInt(1));
+            user.setHeight(cursor.getInt(2));
+            user.setPhoneNumber(cursor.getString(4));
+            user.setEmail(cursor.getString(5));
+            user.setWeight(cursor.getInt(3));
+            arrUser.add(user);
+
+
+        }
+        return arrUser;
+    }
+    public boolean updateProfileHelper(String name, int age,int weight, int height, String phonenumber,String email){
+        this.getWritableDatabase();
+        SQLiteDatabase sqLiteDatabase =this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("username",name);
+        values.put("userAge",age);
+        values.put("userHeight",height);
+        values.put("userWeight",weight);
+        values.put("userPhoneNumber",phonenumber);
+        values.put("userEmailAddress", email);
+        int i = sqLiteDatabase.update("users",values,"userEmailAddress = ?",new String[]{email});
+        if (i>0){
+            return true;
+        }
+
+        return false;
+    }
+
+
 }

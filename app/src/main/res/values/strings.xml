@@ -5,6 +5,580 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="malasanamessage">This pose helps reduce stress and anxiety by calming the mind and body.</string>
     <string name="demomessage">1. Lie on the floor on your stomach. Stretch your legs back, tops of the feet on the floor. Spread your hands on the floor under your shoulders. Keep your legs close together, with your feet and heels lightly touching each other. 2.Place your hands (palms downwards) under your shoulders, keeping your elbows parallel and close to your body. On an inhalation, slowly lift your head, chest and abdomen while keeping your navel on the floor. 3.Rotate the shoulder blades against the back,Lift the top of the sternum without pushing the front ribs forward to avoid hardens the lower back. 4.Taking the top of the thighs and knees back.Press upper armstowards each other, shoulder blades down along the spine, but keeping the space across the tops of the shoulders. 5. Distribute the backbend evenly throughout the entire spine. Hold the pose anywhere from 15 to 30 breathing easily. Release back to the floor with an exhalation.</string>
+    <string name="breakfast_content_wl"><li>Oats Idli (2) with coconut chutney - 160 calories</li>\n
+        \n<li>Moong Dal Cheela (2) with mint chutney - 180 calories</li>\n
+        \n<li>Masala Omelette with whole wheat toast (1 slice) - 200 calories</li>\n
+        \n<li>Masala Omelette with whole wheat toast (1 slice) - 200 calories</li>\n
+        \n<li>Sprouts Salad - 120 calories</li>\n
+        \n<li>Vegetable Upma (1 cup) - 200 calories</li>\n
+        \n<li>Vegetable Paratha (1) with Yogurt (1/2 cup) - 250 calories</li>\n
+        \n<li>Vegetable Pongal (1 cup) - 220 calories</li>\n
+        \n<li>Methi Thepla (2) with Green Chutney (1 tbsp) - 200 calories</li>\n
+        \n<li>Chana Dal Chilla (2) with Tomato Chutney (1 tbsp) - 180 calories</li>\n
+
+    </string>
+    <string name="lunch_content_wl"><li>Brown Rice (1 cup) with Rajma Curry (1/2 cup) and Cucumber Raita (1/2 cup) - 400 calories</li>\n
+        \n<li>Vegetable Khichdi (1 cup) with Tomato Onion Raita (1/2 cup) - 350 calories</li>\n
+        \n<li>Chickpea Salad with Lemon Dressing - 300 calories</li>\n
+        \n<li>Mixed Vegetable Curry (1 cup) with Roti (1) - 350 calories</li>\n
+        \n<li>Aloo Gobi (1 cup) with Roti (1) - 350 calories</li>\n
+        \n<li>Dal Makhani (1 cup) with Brown Rice (1 cup) - 400 calories</li>\n
+        \n<li>Palak Dal (1 cup) with Quinoa (1/2 cup) - 350 calories</li>\n
+        \n<li>Vegetable Biryani (1 cup) with Raita (1/2 cup) - 400 calories</li>\n
+        \n<li>Salad with Chickpeas and Veggies - 250 calories</li>\n
+        \n<li>Brown Rice with Dal (lentil) and Vegetables - 350 calories</li>\n
+        \n<li>Quinoa and Vegetable Pulao - 300 calories</li>\n
+        \n<li>Lentil Soup with Mixed Vegetable Salad - 300 calories</li>\n
+    </string>
+    <string name="snacks_content_wl"><li>Masala Chai (1 cup) with Roasted Almonds (10-12) - 100 calories</li>\n
+        \n<li>Boiled Edamame (1/2 cup) - 100 calories</li>\n
+        \n<li>Greek Yogurt (1 cup) with Mango (1/2 cup) - 150 calories</li>\n
+        \n<li>Greek Yogurt (1 cup) with Berries (1/2 cup) - 120 calories</li>\n
+        \n<li>Almonds (10-12) - 100 calories</li>\n
+        \n<li>Roasted Makhana (1 cup) - 80 calories</li>\n
+        \n<li>Fruit Salad with Yogurt - 150 calories</li>\n
+        \n<li>Baked Sweet Potato Fries - 150 calories</li>\n
+        \n<li>Mixed Nuts (Almonds, Walnuts, Pistachios) - 200 calories</li>\n
+        \n<li>Carrot Sticks with Hummus - 150 calories</li>\n
+    </string>
+    <string name="dinner_content_wl"><li>Tofu Stir Fry (1 cup) with Brown Rice (1 cup) - 400 calories</li>\n
+        \n<li>Palak Paneer (1 cup) with Roti (1) - 400 calories</li>\n
+        \n<li>Chana Masala (1 cup) with Quinoa (1/2 cup) - 400 calories</li>\n
+        \n<li>Vegetable Stew (1 cup) with Appam (2) - 350 calories</li>\n
+        \n<li>Kadai Paneer (1 cup) with Roti (1) - 400 calories</li>\n
+        \n<li>Mushroom Curry (1 cup) with Brown Rice (1 cup) - 350 calories</li>\n
+        \n<li>Tofu and Vegetable Stir Fry (1 cup) with Quinoa (1/2 cup) - 400 calories</li>\n
+        \n<li>Vegetable Korma (1 cup) with Appam (2) - 350 calories</li>\n
+        \n<li>Vegetable Soup with Whole Wheat Bread - 250 calories</li>\n
+        \n<li>Grilled Tofu with Steamed Vegetables and Brown Rice - 400 calories</li>\n
+        \n<li>Paneer (Cottage Cheese) Tikka with Green Salad - 350 calories</li>\n
+        \n<li>Lentil and Vegetable Stew with Quinoa - 350 calories</li>\n
+    </string>
+    <string name="breakfast_content_wg"><li>Masala Omelette (250 calories) with 2 slices of whole wheat toast (180 calories) and 1 small banana (90 calories) - Total: 520 calories</li>\n
+        \n<li>Paneer Paratha (300 calories) with 1 cup yogurt (120 calories) and 1 medium apple (95 calories) - Total: 515 calories</li>\n
+        \n<li>Moong Dal Cheela (150 calories) with Mint Chutney (50 calories) and 1 glass of Mango Lassi (200 calories) - Total: 400 calories</li>\n
+        \n<li>Banana Smoothie with Chia Seeds - 1 medium banana (90 calories), 1 cup unsweetened almond milk (30 calories), 2 tbsp peanut butter (190 calories), and 1 tbsp chia seeds (60 calories) - Total: 370 calories</li>\n
+        \n<li>Dates and Peanut Butter (30g dates and 1 tbsp peanut butter) - 220 calories</li>\n
+        \n<li>Upma (Semolina Porridge) (150 calories) with Coconut Chutney (50 calories) and 1 small banana (90 calories) - Total: 290 calories</li>\n
+        \n<li>Vegetable Dalia (Cracked Wheat Porridge) (200 calories) with 1 cup yogurt (120 calories) and 1 medium apple (95 calories) - Total: 415 calories</li>\n
+        \n<li>Bread Pakora (Fried Bread Fritters) (250 calories) with Mint Chutney (50 calories) and 1 glass of Sweet Lassi (200 calories) - Total: 500 calories</li>\n
+        \n<li>Bhel Puri (Puffed Rice Snack) (1 cup) - 200 calories</li>\n
+        \n<li>Boiled Chana (Chickpeas) (1/2 cup) - 140 calories</li>\n
+        \n<li>Roasted Makhanas (Foxnuts) (30g) - 100 calories</li>\n
+    </string>
+    <string name="lunch_content_wg"><li>Baingan Bharta (Smoky Eggplant Curry) (300 calories) with 2 Rotis (200 calories) and 1 small serving of mixed veggies (50 calories) - Total: 550 calories</li>\n
+        \n<li>Palak Paneer (Spinach and Paneer Curry) (350 calories) with Brown Rice (150 calories) and 1 cup cucumber raita (50 calories) - Total: 550 calories</li>\n
+        \n<li>Chole Bhature (Chickpea Curry with Fried Bread) (500 calories) with Mango Pickle (20 calories) - Total: 520 calories</li>\n
+        \n<li>Rajma Chawal (Red Kidney Beans with Rice) (450 calories) with a small side salad of cucumber, carrot, and tomato (50 calories) - Total: 500 calories</li>\n
+        \n<li>Aloo Matar (Potato and Peas Curry) (300 calories) with 2 Rotis (200 calories) and 1 cup yogurt (120 calories) - Total: 620 calories</li>\n
+        \n<li>Vegetable Biryani (400 calories) with Boondi Raita (80 calories) - Total: 480 calories</li>\n
+        \n<li>Dal Makhani (Lentil Curry) (300 calories) with Jeera Rice (150 calories) and 1 small serving of mixed veggies (50 calories) - Total: 500 calories</li>\n
+        \n<li>Rajma Masala (Kidney Bean Curry) (300 calories) with 2 Rotis (200 calories) and 1 cup cucumber raita (50 calories) - Total: 550 calories</li>\n
+        \n<li>Paneer Tikka Masala (Paneer in Spicy Tomato Gravy) (350 calories) with Brown Rice (150 calories) and 1 small serving of mixed veggies (50 calories) - Total: 550 calories</li>\n
+        \n<li>Chana Masala (Chickpea Curry) (300 calories) with Jeera Rice (150 calories) and 1 small serving of mixed veggies (50 calories) - Total: 500 calories</li>\n
+        \n<li>Baingan Bharta (Roasted Eggplant Mash) (250 calories) with 2 Rotis (200 calories) and 1 cup cucumber raita (50 calories) - Total: 500 calories</li>\n
+        \n<li>Palak Paneer (Spinach and Cottage Cheese Curry) (350 calories) with Brown Rice (150 calories) and 1 small serving of mixed veggies (50 calories) - Total: 550 calories</li>\n
+    </string>
+    <string name="snacks_content_wg"><li>Homemade Chivda (Roasted Flattened Rice Snack) (30g) - 140 calories</li>\n
+        \n<li>Roasted Chickpeas (1/2 cup) - 140 calories</li>\n
+        \n<li>Fruit Chaat with Yogurt Dressing (1 cup mixed fruit and 2 tbsp yogurt dressing) - 150 calories</li>\n
+        \n<li>Masala Corn on the Cob (1 medium ear) - 100 calories</li>\n
+        \n<li>Vegetable Cutlets (2 pieces) - 200 calories</li>\n
+        \n<li>Sattu Drink (Roasted Gram Flour Drink) (1 glass) - 200 calories</li>\n
+        \n<li>Masala Papad (1 piece) (50 calories)</li>\n
+        \n<li>Roasted Chana Jor Garam (1 cup) (150 calories)</li>\n
+        \n<li>Roasted Makhana (Foxnuts) (1 cup) (120 calories)</li>\n
+        \n<li>Bhelpuri (Puffed Rice Snack) (1 cup) (150 calories)</li>\n
+        \n<li>Paneer Tikka (Paneer Skewers) (2 pieces) (200 calories) with Green Chutney (50 calories)</li>\n
+        \n<li>Sweet Potato Chaat (1 cup) (150 calories)</li>\n
+    </string>
+    <string name="dinner_content_wg"><li>Aloo Gobi (Potato and Cauliflower Curry) (250 calories) with 2 Rotis (200 calories) and 1 cup yogurt (120 calories) - Total: 570 calories</li>\n
+        \n<li>Methi Malai Matar (Fenugreek, Peas, and Cream Curry) (350 calories) with Quinoa (150 calories) and 1 small serving of mixed veggies (50 calories) - Total: 550 calories</li>\n
+        \n<li>Vegetable Korma (Mixed Vegetable Curry) (300 calories) with Brown Rice (150 calories) and 1 cup cucumber raita (50 calories) - Total: 500 calories</li>\n
+        \n<li>Paneer Butter Masala (300 calories) with Jeera Rice (150 calories) and a small side of mixed veggies (50 calories) - Total: 500 calories</li>\n
+        \n<li>Moong Dal Tadka (Yellow Lentil Curry) (250 calories) with 2 Rotis (200 calories) and 1 small serving of cucumber raita (50 calories) - Total: 500 calories</li>\n
+        \n<li>Mixed Veg Curry (300 calories) with Quinoa (150 calories) - Total: 450 calories</li>\n
+        \n<li>Mixed Vegetable Sabzi (250 calories) with 2 Rotis (200 calories) and 1 cup yogurt (120 calories) - Total: 570 calories</li>\n
+        \n<li>Aloo Matar (Potato and Peas Curry) (250 calories) with Brown Rice (150 calories) and 1 small serving of mixed veggies (50 calories) - Total: 450 calories</li>\n
+        \n<li>Vegetable Biryani (Mixed Vegetable Rice) (350 calories) with 1 small serving of raita (50 calories) - Total: 400 calories</li>\n
+        \n<li>Aloo Gobi (Potato and Cauliflower Curry) (250 calories) with 2 Rotis (200 calories) and 1 cup yogurt (120 calories) - Total: 570 calories</li>\n
+        \n<li>Methi Malai Paneer (Fenugreek and Cottage Cheese Curry) (350 calories) with Brown Rice (150 calories) and 1 small serving of mixed veggies (50 calories) - Total: 550 calories</li>\n
+        \n<li>Dum Aloo (Stuffed Potato Curry) (300 calories) with Jeera Rice (150 calories) and 1 small serving of mixed veggies (50 calories) - Total: 500 calories</li>\n
+    </string>
+    <string name="breakfast_content_vegan"><li>Masala oatmeal with mixed vegetables (350 calories)</li>\n
+        \n<li>Upma made with semolina, vegetables, and peanuts (400 calories)</li>\n
+        \n<li>Poha made with flattened rice, mixed vegetables, and peanuts (350 calories)</li>\n
+        \n<li>Vegan dosa stuffed with spiced potatoes and served with coconut chutney (400 calories)</li>\n
+        \n<li>Vegetable paratha served with mixed pickle (450 calories)</li>\n
+        \n<li>Moong dal chilla (pancake) made with mung beans and spices, served with coriander chutney (300 calories)</li>\n
+        \n<li>Idli made with fermented rice and lentil batter, served with sambar and coconut chutney (350 calories)</li>\n
+        \n<li>Uttapam made with fermented lentil and rice batter, topped with mixed vegetables, served with coconut chutney (400 calories)</li>\n
+        \n<li>Vegetable poha cutlets served with tamarind chutney (350 calories)</li>\n
+        \n<li>Vegan tomato and onion uttapam (400 calories)</li>\n
+    </string>
+    <string name="lunch_content_vegan"><li>Vegan kadhi made with chickpea flour and yogurt substitute, served with brown rice and mixed vegetables (550 calories)</li>\n
+        \n<li>Aloo gobhi (potato and cauliflower) curry served with quinoa or roti and mixed vegetables (500 calories)</li>\n
+        \n<li>Mushroom and green pea curry served with brown rice or roti and mixed vegetables (550 calories)</li>\n
+        \n<li>Vegan palak paneer with tofu and served with brown rice or roti (550 calories)</li>\n
+        \n<li>Vegan moong dal khichdi (lentil and rice dish) served with mixed vegetables and a side of pickle (500 calories)</li>\n
+        \n<li>Chana masala served with brown rice or roti and mixed vegetables (550 calories)</li>\n
+        \n<li>Vegetable biryani with mixed raita and papad (600 calories)</li>\n
+        \n<li>Rajma curry served with brown rice or roti and mixed vegetables (550 calories)</li>\n
+        \n<li>Baingan bharta served with brown rice or roti and mixed vegetables (500 calories)</li>\n
+        \n<li>Mixed vegetable curry served with quinoa or roti (550 calories)</li>\n
+    </string>
+    <string name="snacks_content_vegan"><li>Masala popcorn (250 calories)</li>\n
+        \n<li>Spicy roasted chickpeas (300 calories)</li>\n
+        \n<li>Masala peanuts (350 calories)</li>\n
+        \n<li>Baked samosas with mint chutney (350 calories)</li>\n
+        \n<li>Vegetable cutlets served with tamarind chutney (400 calories)</li>\n
+        \n<li>Masala peanuts and roasted gram (chana) served with a cup of chai (300 calories)</li>\n
+        \n<li>Baked kachori (spiced lentil-filled pastry) with mint chutney (350 calories)</li>\n
+        \n<li>Vegan paneer tikka made with tofu, served with mixed vegetables and mint chutney (400 calories)</li>\n
+        \n<li>Aloo tikki (potato cutlet) with tamarind chutney (350 calories)</li>\n
+        \n<li>Vegan dhokla (steamed chickpea flour snack) served with coriander chutney (300 calories)</li>\n
+    </string>
+    <string name="dinner_content_vegan"><li>Vegan chole bhature (spiced chickpeas served with deep-fried bread) with mixed raita (600 calories)</li>\n
+        \n<li>Vegan baigan aloo (eggplant and potato curry) served with quinoa or roti and mixed vegetables (500 calories)</li>\n
+        \n<li>Vegan dal makhani made with black lentils and kidney beans, served with brown rice or roti and mixed vegetables (550 calories)</li>\n
+        \n<li>Vegan palak corn made with spinach and sweet corn, served with quinoa or roti and mixed vegetables (500 calories)</li>\n
+        \n<li>Vegan baingan bharta served with brown rice or roti and mixed vegetables (500 calories)</li>\n
+        \n<li>Tofu or tempeh tikka masala served with brown rice or roti and mixed vegetables (600 calories)</li>\n
+        \n<li>Vegan saag paneer with tofu and served with brown rice or roti (550 calories)</li>\n
+        \n<li>Vegan chana dal with brown rice or roti and mixed vegetables (550 calories)</li>\n
+        \n<li>Vegan baigan bharta with brown rice or roti and mixed vegetables (500 calories)</li>\n
+        \n<li>Vegan mixed vegetable korma with brown rice or roti (550 calories)</li>\n
+    </string>
+    <string name="breakfast_content_hh"><li>Oatmeal with fruits and nuts (300 calories)</li>\n
+        \n<li>Vegetable upma with a side of plain yogurt (350 calories)</li>\n
+        \n<li>Mixed vegetable paratha with mint chutney (400 calories)</li>\n
+        \n<li>Poached eggs with whole-grain toast and avocado (400 calories)</li>\n
+        \n<li>Moong dal chilla with green chutney (250 calories)</li>\n
+        \n<li>Poha (flattened rice) with mixed vegetables and peanuts (300 calories)</li>\n
+        \n<li>Besan chilla with tomato chutney (250 calories)</li>\n
+        \n<li>Idli with sambar and coconut chutney (300 calories)</li>\n
+        \n<li>Masala oats with vegetables (300 calories)</li>\n
+        \n<li>Dhokla with mint chutney (250 calories)</li>\n
+    </string>
+    <string name="lunch_content_hh"><li>Chana masala with brown rice (550 calories)</li>\n
+        \n<li>Palak paneer with roti (500 calories)</li>\n
+        \n<li>Mixed vegetable curry with quinoa (550 calories)</li>\n
+        \n<li>Baingan bharta with brown rice (500 calories)</li>\n
+        \n<li>Mushroom and spinach curry with roti (550 calories)</li>\n
+        \n<li>Quinoa vegetable bowl with roasted chickpeas (500 calories)</li>\n
+        \n<li>Vegetable biryani with cucumber raita (600 calories)</li>\n
+        \n<li>Lentil soup with a side salad (350 calories)</li>\n
+        \n<li>Brown rice and mixed vegetable stir-fry (450 calories)</li>\n
+        \n<li>Rajma masala with steamed brown rice (550 calories)</li>\n
+    </string>
+    <string name="snaks_content_hh"><li>Roasted chickpeas (100 calories)</li>\n
+        \n<li>Fruit salad with Greek yogurt (150 calories)</li>\n
+        \n<li>Carrot sticks with hummus (150 calories)</li>\n
+        \n<li>Roasted almonds (100 calories)</li>\n
+        \n<li>Whole-grain crackers with avocado and tomato (200 calories)</li>\n
+        \n<li> Masala peanuts (100 calories)</li>\n
+        \n<li>Chana chaat with vegetables (150 calories)</li>\n
+        \n<li>Aloo tikki with mint chutney (150 calories)</li>\n
+        \n<li>Corn and spinach tikki (100 calories)</li>\n
+        \n<li>Spiced buttermilk (100 calories)</li>\n
+    </string>
+    <string name="dinner_content_hh"><li>Dal makhani with steamed vegetables and roti (550 calories)</li>\n
+        \n<li>Paneer tikka with mixed vegetable salad (500 calories)</li>\n
+        \n<li>Tofu and vegetable curry with brown rice (550 calories)</li>\n
+        \n<li>Stuffed bitter gourd with quinoa (450 calories)</li>\n
+        \n<li>Mixed dal with steamed vegetables and roti (500 calories)</li>\n
+        \n<li>Baked stuffed bell peppers with quinoa and vegetables (450 calories)</li>\n
+        \n<li>Tofu and vegetable stir-fry with brown rice (550 calories)</li>\n
+        \n<li>Masoor dal with steamed vegetables and roti (500 calories)</li>\n
+        \n<li>Chickpea and spinach curry with brown rice (550 calories)</li>\n
+        \n<li>Baked sweet potato with black bean and corn salad (400 calories)</li>\n
+    </string>
+    <string name="breakfast_content_diabetes"><li>Poha (flattened rice) with mixed vegetables and peanuts (300 calories)</li>\n
+        \n<li>Besan chilla with tomato chutney (250 calories)</li>\n
+        \n<li>Idli with sambar and coconut chutney (300 calories)</li>\n
+        \n<li>Masala oats with vegetables (300 calories)</li>\n
+        \n<li>Dhokla with mint chutney (250 calories)</li>\n
+        \n<li>Oatmeal with nuts and seeds (300 calories)</li>\n
+        \n<li>Vegetable omelet with whole-grain toast (400 calories)</li>\n
+        \n<li>Masala oats with vegetables (300 calories)</li>\n
+        \n<li>Poha (flattened rice) with mixed vegetables and peanuts (300 calories)</li>\n
+        \n<li>Moong dal chilla with green chutney (250 calories)</li>\n
+    </string>
+    <string name="lunch_content_diabetes"><li>Quinoa vegetable bowl with roasted chickpeas (500 calories)</li>\n
+        \n<li>Mixed vegetable curry with quinoa (550 calories)</li>\n
+        \n<li>Brown rice and mixed vegetable stir-fry (450 calories)</li>\n
+        \n<li>Rajma masala with steamed brown rice (550 calories)</li>\n
+        \n<li>Tofu and vegetable stir-fry with brown rice (550 calories)</li>\n
+        \n<li>Chana masala with brown rice (550 calories)</li>\n
+        \n<li>Palak paneer with roti (500 calories)</li>\n
+        \n<li>Mixed vegetable curry with quinoa (550 calories)</li>\n
+        \n<li>Baingan bharta with brown rice (500 calories)</li>\n
+        \n<li>Mushroom and spinach curry with roti (550 calories)</li>\n
+    </string>
+    <string name="snaks_content_diabetes"><li>Masala peanuts (100 calories)</li>\n
+        \n<li>Chana chaat with vegetables (150 calories)</li>\n
+        \n<li>Aloo tikki with mint chutney (150 calories)</li>\n
+        \n<li>Roasted chana (100 calories)</li>\n
+        \n<li>Fruit salad with Greek yogurt (150 calories)</li>\n
+        \n<li>Roasted almonds (100 calories)</li>\n
+        \n<li>Greek yogurt with berries (150 calories)</li>\n
+        \n<li>Carrot sticks with hummus (150 calories)</li>\n
+        \n<li>Roasted almonds (100 calories)</li>\n
+        \n<li>Whole-grain crackers with avocado and tomato (200 calories)</li>\n
+    </string>
+    <string name="dinner_content_diabetes"><li>Baked stuffed bell peppers with quinoa and vegetables (450 calories)</li>\n
+        \n<li>Chickpea and spinach curry with brown rice (550 calories)</li>\n
+        \n<li>Palak paneer with roti (500 calories)</li>\n
+        \n<li>Mushroom and spinach curry with roti (550 calories)</li>\n
+        \n<li>Stuffed bitter gourd with quinoa (450 calories)</li>\n
+        \n<li>Mixed dal with steamed vegetables and roti (500 calories)</li>\n
+        \n<li>Paneer tikka with mixed vegetable salad (500 calories)</li>\n
+        \n<li>Methi matar malai with brown rice (550 calories)</li>\n
+        \n<li>Stuffed Karela with quinoa (450 calories)</li>\n
+        \n<li>Tomato and onion uttapam with coconut chutney (500 calories)</li>\n
+    </string>
+    <string name="breakfast_content_pw"><li>Poha (flattened rice) with vegetables - 150 calories</li>\n
+        \n<li>Idli (steamed rice cake) with sambar (lentil soup) and chutney - 200 calories</li>\n
+        \n<li>Vegetable omelette with whole wheat bread - 250 calories</li>\n
+        \n<li>Upma (semolina porridge) with vegetables - 200 calories</li>\n
+        \n<li>Mixed vegetable paratha with curd - 300 calories</li>\n
+        \n<li>Dosa (fermented rice and lentil crepe) with coconut chutney and sambar - 250 calories</li>\n
+        \n<li>Methi (fenugreek) paratha with curd - 300 calories</li>\n
+        \n<li>Vegetable poha cutlet with green chutney - 200 calories</li>\n
+        \n<li>Besan (gram flour) chilla (pancake) with mint chutney - 200 calories</li>\n
+        \n<li>Sabudana (tapioca) khichdi with curd - 300 calories</li>\n
+    </string>
+    <string name="lunch_content_pw"><li>Bhindi (okra) masala with rice and salad - 400 calories</li>\n
+        \n<li>Aloo methi (potato and fenugreek) with chapati - 450 calories</li>\n
+        \n<li>Lauki (bottle gourd) chana dal with rice and salad - 400 calories</li>\n
+        \n<li>Paneer makhani (buttery tomato-based curry) with naan (leavened flatbread) - 450 calories</li>\n
+        \n<li>Vegetable kofta curry with rice and salad - 450 calories</li>\n
+        \n<li>Brown rice with dal (lentils), vegetable curry, and salad - 400 calories</li>\n
+        \n<li>Rajma (kidney beans) with rice and raita (yogurt dish) - 450 calories</li>\n
+        \n<li>Vegetable biryani with cucumber raita - 400 calories</li>\n
+        \n<li>Paneer (cottage cheese) tikka masala with chapati (flatbread) - 450 calories</li>\n
+        \n<li>Chana (chickpea) masala with rice and salad - 400 calories</li>\n
+    </string>
+    <string name="snaks_content_pw"><li>Fruit salad with yogurt - 150 calories</li>\n
+        \n<li>Roasted chana (chickpeas) with cucumber and carrot sticks - 100 calories</li>\n
+        \n<li>Dhokla (steamed snack) with mint chutney - 150 calories</li>\n
+        \n<li>Vegetable soup with whole wheat toast - 150 calories</li>\n
+        \n<li>Makhana (puffed lotus seeds) with a glass of milk - 200 calories</li>\n
+        \n<li>Masala papad (spiced lentil wafers) with green chutney - 100 calories</li>\n
+        \n<li>Fruit smoothie with yogurt and nuts - 200 calories</li>\n
+        \n<li>Aloo tikki (potato cutlet) with mint chutney - 150 calories</li>\n
+        \n<li>Roasted makhana with turmeric and black pepper - 100 calories</li>\n
+        \n<li>Vegetable cutlet with green chutney - 150 calories</li>\n
+    </string>
+    <string name="dinner_content_pw"><li>Masoor (red lentil) dal with rice and salad - 400 calories</li>\n
+        \n<li>Aloo (potato) gobi (cauliflower) with chapati - 450 calories</li>\n
+        \n<li>Palak (spinach) paneer with rice and salad - 400 calories</li>\n
+        \n<li>Vegetable khichdi (rice and lentil dish) with curd - 400 calories</li>\n
+        \n<li>Baingan (eggplant) bharta with whole wheat bread - 400 calories</li>\n
+        \n<li>Mix vegetable curry with rice and salad - 400 calories</li>\n
+        \n<li>Methi matar malai (fenugreek and pea curry in a creamy sauce) with naan - 450 calories</li>\n
+        \n<li>Stuffed capsicum (bell peppers) with chapati - 400 calories</li>\n
+        \n<li>Chana dal with lauki (bottle gourd) and rice - 400 calories</li>\n
+        \n<li>Baingan (eggplant) masala with rice and salad - 400 calories</li>\n
+    </string>
+    <string name="breakfast_content_children"><li>Veggie Omelette (with onion, tomato, capsicum, and paneer) - 250 calories</li>\n
+        \n<li>Poha (flattened rice) with peanuts and vegetables - 200 calories</li>\n
+        \n<li>Idli (steamed rice cake) with sambar (vegetable stew) - 150 calories</li>\n
+        \n<li>Upma (semolina porridge) with vegetables and cashews - 250 calories</li>\n
+        \n<li>Masala Dosa (rice and lentil crepe) with coconut chutney and sambar - 300 calories</li>\n
+        \n<li>Vermicelli upma (semolina noodles) with vegetables - 250 calories</li>\n
+        \n<li>Besan cheela (chickpea flour pancake) with tomato chutney - 200 calories</li>\n
+        \n<li>Medu vada (lentil donut) with coconut chutney - 200 calories</li>\n
+        \n<li>Matar kachori (green pea-stuffed pastry) with mint chutney - 250 calories</li>\n
+        \n<li>Masala omelette with whole wheat bread and a glass of fresh orange juice - 350 calories</li>\n
+    </string>
+    <string name="lunch_content_children"><li>Aloo palak (potato and spinach curry) with jeera (cumin) rice and salad - 350 calories</li>\n
+        \n<li>Baingan bharta (roasted eggplant mash) with roti and cucumber raita - 400 calories</li>\n
+        \n<li>Bhindi (okra) masala with quinoa and carrot salad - 300 calories</li>\n
+        \n<li>Methi (fenugreek) dal with brown rice and cucumber raita - 350 calories</li>\n
+        \n<li>Mushroom matar (mushroom and green peas curry) with whole wheat bread and salad - 400 calories</li>\n
+        \n<li>Rajma (red kidney bean) curry with brown rice and salad - 400 calories</li>\n
+        \n<li>Chana (chickpea) masala with roti (Indian flatbread) and raita (yogurt with cucumber and mint) - 350 calories</li>\n
+        \n<li>Aloo (potato) gobi (cauliflower) curry with quinoa and salad - 300 calories</li>\n
+        \n<li>Dal (lentil) tadka with brown rice and stir-fried vegetables - 350 calories</li>\n
+        \n<li>Paneer (cottage cheese) bhurji with roti and salad - 400 calories</li>\n
+    </string>
+    <string name="snaks_content_children"><li>Fruit salad with yogurt and honey - 150 calories</li>\n
+        \n<li>Vegetable cutlets with mint chutney - 200 calories</li>\n
+        \n<li>Roasted chana (gram) with cucumber and carrot sticks - 100 calories</li>\n
+        \n<li>Besan (chickpea flour) chila (pancake) with green chutney - 150 calories</li>\n
+        \n<li>Banana and peanut butter smoothie - 200 calories</li>\n
+        \n<li>Dhokla (steamed savory cake) with green chutney - 150 calories</li>\n
+        \n<li>Masala papad (spiced crispy lentil disc) with tomato salsa - 100 calories</li>\n
+        \n<li>Moong dal (split mung bean) chaat (savory snack) with chopped onion and cilantro - 150 calories</li>\n
+        \n<li>Dahi (yogurt) vada (lentil dumpling) with tamarind chutney - 200 calories</li>\n
+        \n<li>Paneer tikka (grilled cottage cheese skewer) with mint chutney - 200 calories</li>\n
+    </string>
+    <string name="dinner_content_children"><li>Vegetable pulao (rice pilaf) with raita and salad - 350 calories</li>\n
+        \n<li>Palak (spinach) paneer with roti and salad - 400 calories</li>\n
+        \n<li>Mushroom and vegetable stir-fry with quinoa and salad - 300 calories</li>\n
+        \n<li>Stuffed capsicum (bell pepper) with brown rice and salad - 350 calories</li>\n
+        \n<li>Tofu and vegetable curry with brown rice and salad - 400 calories</li>\n
+        \n<li>Chana dal (split chickpea) curry with brown rice and cucumber raita - 350 calories</li>\n
+        \n<li>Dal makhani (creamy black lentil curry) with naan (tandoor-baked flatbread) and salad - 400 calories</li>\n
+        \n<li>Aloo baingan (potato and eggplant curry) with quinoa and tomato salad - 300 calories</li>\n
+        \n<li>Rajasthani gatte (gram flour dumplings) curry with jeera rice and carrot salad - 350 calories</li>\n
+        \n<li>Tofu and vegetable stir-fry with brown rice and cucumber raita - 400 calories</li>\n
+    </string>
+    <string name="malasana_yoga"><li>1.Start by standing with your feet hip-width apart, toes pointing forward.</li>\n
+        \n<li>2.Bend your knees and lower your hips down towards the ground, keeping your feet flat on the floor.</li>\n
+        \n<li>3.Bring your hands together in front of your chest in a prayer position.</li>\n
+        \n<li>4.Use your elbows to gently push your knees wider apart, towards your armpits.</li>\n
+        \n<li>5.Lengthen your spine and lift your chest, keeping your shoulders relaxed </li>\n
+        \n<li>6.Hold the pose for a few breaths, feeling the stretch in your hips and groin.</li>\n
+        \n<li>7.To release the pose, bring your hands to the ground and straighten your legs. </li>\n
+    </string>
+
+    <string name="navasana_yoga"><li>Start by sitting on your mat with your legs extended in front of you. Place your hands on the mat behind your hips, fingers pointing towards your feet.</li>\n
+        \n<li>2.Lean back slightly and lift your feet off the mat, bringing your shins parallel to the floor.</li>\n
+        \n<li>3.Inhale deeply and lengthen your spine, keeping your chest lifted.</li>\n
+        \n<li>4.On an exhale, begin to lift your feet higher off the mat, straightening your legs as much as you can.</li>\n
+        \n<li>5.Keep your toes pointed and engage your core muscles to help you balance. You can also reach your arms straight out in front of you to help with balance.</li>\n
+        \n<li>6.Hold the pose for several deep breaths, trying to keep your spine straight and your breath steady.</li>\n
+        \n<li>To release the pose, exhale and lower your feet back down to the mat.</li>\n
+    </string>
+
+    <string name="dhanurasana_yoga"><li>1.Lie on your stomach on your yoga mat with your feet hip-width apart and your arms at your sides, palms facing down.</li>\n
+        \n<li>2.Bend your knees and reach your hands back to grasp your ankles.</li>\n
+        \n<li>3.Inhale and lift your chest off the mat, pulling your ankles towards your buttocks.</li>\n
+        \n<li>4.Press your feet into your hands and lift your thighs off the mat as well. Keep your head and neck in a neutral position.</li>\n
+        \n<li>5.Hold the pose for several deep breaths, breathing deeply and steadily.</li>\n
+        \n<li>6.To release the pose, exhale and slowly lower your chest, thighs, and feet back down to the mat.</li>\n
+        \n<li>7.Release your ankles and rest your head on one side, with your arms at your sides, palms facing up.</li>\n
+    </string>
+    <string name="utkatasana_yoga"><li>1.Begin in Tadasana (Mountain Pose), standing tall with your feet hip-width apart and your arms at your sides.</li>\n
+        \n<li>2.Inhale and raise your arms straight up above your head, palms facing each other.</li>\n
+        \n<li>3.Exhale and bend your knees, as if you were sitting back into an imaginary chair. Keep your knees together and your weight in your heels.</li>\n
+        \n<li>4.Keep your spine long and your chest lifted, and try to keep your thighs parallel to the floor.</li>\n
+        \n<li>5.Hold the pose for several deep breaths, trying to deepen the bend in your knees and engage your core muscles.</li>\n
+        \n<li>6.To release the pose, inhale and straighten your legs, lowering your arms back down to your sides.</li>\n
+    </string>
+    <string name="setu_Bandhasana_yoga"><li>1.Lie on your back on your yoga mat with your knees bent and your feet hip-width apart and flat on the mat, heels close to your buttocks.</li>\n
+        \n<li>2.Keep your arms at your sides with your palms facing down.</li>\n
+        \n<li>3.Inhale and lift your hips up towards the ceiling, rolling your spine off the floor vertebra by vertebra.</li>\n
+        \n<li>4.Interlace your fingers under your body, pressing your arms and shoulders into the mat.</li>\n
+        \n<li>5.Press down firmly through your feet and lift your hips as high as you can, keeping your thighs parallel to the floor.</li>\n
+        \n<li>6.Hold the pose for several deep breaths, focusing on lifting your chest and lengthening your spine.</li>\n
+        \n<li>7.To release the pose, exhale and slowly roll your spine back down to the mat, releasing your interlaced fingers and bringing your arms back to your sides.</li>\n
+    </string>
+    <string name="bhujangasana_yoga"><li>1.Lie on your stomach on your yoga mat with your feet together and your toes flat on the mat.</li>\n
+        \n<li>2.Place your hands underneath your shoulders with your palms facing down, elbows close to your sides.</li>\n
+        \n<li>3.Inhale and press down through your hands, lifting your chest off the mat.</li>\n
+        \n<li>4.Keep your shoulders relaxed and your elbows close to your sides.</li>\n
+        \n<li>5.Keep your gaze forward or upward, but avoid straining your neck.</li>\n
+        \n<li>6.Hold the pose for several deep breaths, focusing on stretching your spine and engaging your core muscles.</li>\n
+        \n<li>7.To release the pose, exhale and slowly lower your chest back down to the mat, bringing your forehead to the mat and resting your arms at your sides.</li>\n
+    </string>
+    <string name="bhramari_Pranayama_yoga"><li>1.Find a comfortable seated position, either cross-legged on the floor or in a chair with your feet flat on the ground.</li>\n
+        \n<li>2.Close your eyes and take a few deep breaths, allowing your body and mind to relax.</li>\n
+        \n<li>3.Place your index fingers on your ears, with your thumbs resting on your cheekbones and your other fingers resting lightly on your face</li>\n
+        \n<li>4.Inhale deeply through your nose, filling your lungs with air.</li>\n
+        \n<li>5.Exhale slowly while making a humming sound, like the buzzing of a bee. Keep your mouth closed and your throat relaxed.</li>\n
+        \n<li>6.Repeat the inhale-exhale cycle for a few rounds, focusing on the sound and sensation of the humming.</li>\n
+        \n<li>7.After several rounds, release your hands and take a few deep breaths, noticing any sensations in your body and mind.</li>\n
+    </string>
+    <string name="balasana_yoga"><li>1.Begin in a kneeling position on your yoga mat, with your toes touching and your knees hip-width apart.</li>\n
+        \n<li>2.Sit back on your heels and lower your torso forward, bringing your forehead to the mat.</li>\n
+        \n<li>3.Extend your arms forward, placing your hands on the mat in front of you with your palms facing down.</li>\n
+        \n<li>4.Relax your shoulders and allow your entire body to sink down into the pose.</li>\n
+        \n<li>5.Breathe deeply and hold the pose for several deep breaths, focusing on relaxing your entire body.</li>\n
+        \n<li>6.To release the pose, slowly lift your torso back up to a kneeling position.</li>\n
+    </string>
+    <string name="viparita_Karani_yoga"><li>1.Find an open space near a wall or other elevated surface.</li>\n
+        \n<li>2.Sit on the floor with your left or right side facing the wall.</li>\n
+        \n<li>3.Sit on the floor with your left or right side facing the wall.</li>\n
+        \n<li>4.Lie down on your back and adjust your position so that your legs are resting straight up against the wall.</li>\n
+        \n<li>5.Place your arms at your sides, palms facing up, and close your eyes.</li>\n
+        \n<li>6.Breathe deeply and hold the pose for several minutes, allowing your body and mind to relax.</li>\n
+        \n<li>7.To release the pose, slowly slide your legs down the wall and roll onto your side.</li>\n
+    </string>
+    <string name="uttanasana_yoga"><li>1.Stand at the front of your yoga mat with your feet hip-width apart and your hands resting at your sides.</li>\n
+        \n<li>2.Inhale deeply and lift your arms up above your head.</li>\n
+        \n<li>3.Exhale and fold forward at the hips, bringing your torso down towards your legs.</li>\n
+        \n<li>4.Allow your hands to rest on the floor or on a block, or grab onto the backs of your ankles or calves.</li>\n
+        \n<li>5.Relax your head and neck, and let the weight of your torso stretch your hamstrings and lower back.</li>\n
+        \n<li>6.Breathe deeply and hold the pose for several deep breaths, focusing on relaxing your entire body.</li>\n
+        \n<li>7.To release the pose, inhale and slowly lift your torso back up to a standing position.</li>\n
+    </string>
+    <string name="shavasana_yoga"><li>1.Lie down on your back on a yoga mat or comfortable surface.</li>\n
+        \n<li>2.Place your arms at your sides, palms facing up, and let your legs relax.</li>\n
+        \n<li>3.Close your eyes and focus on your breath, allowing it to become slow and steady.</li>\n
+        \n<li>4.Relax your entire body, releasing any tension in your muscles.</li>\n
+        \n<li>5.Let go of any thoughts or worries, allowing your mind to become calm and peaceful.</li>\n
+        \n<li>6.Remain in the pose for several minutes, focusing on your breath and allowing your body and mind to fully relax.</li>\n
+        \n<li>7.To release the pose, slowly bring your awareness back to your body, wiggle your fingers and toes, and take a few deep breaths.</li>\n
+    </string>
+    <string name="vrikshasana_yoga"><li>1.Stand at the front of your yoga mat with your feet hip-width apart and your hands resting at your sides.</li>\n
+        \n<li>2.Shift your weight onto your left foot and lift your right foot off the ground.</li>\n
+        \n<li>3.Place the sole of your right foot on the inside of your left thigh, as high up as is comfortable.</li>\n
+        \n<li>4.Bring your palms together in front of your chest in a prayer position.</li>\n
+        \n<li>5.Find a point in front of you to focus on and keep your gaze steady.</li>\n
+        \n<li>6.Breathe deeply and slowly, and imagine rooting down through your left foot and extending up through the crown of your head.</li>\n
+        \n<li>7.Hold the pose for several deep breaths, focusing on maintaining your balance and stability.</li>\n
+        \n<li>8.To release the pose, exhale and slowly lower your right foot back down to the ground.</li>\n
+        \n<li>9.Repeat the posture on the other side, standing on your right foot and placing your left foot on your right thigh.</li>\n
+    </string>
+    <string name="utthita_Hastapadasana_yoga"><li>1.Stand at the front of your yoga mat with your feet hip-width apart and your hands resting at your sides.</li>\n
+        \n<li>2.Inhale deeply and lift your arms up above your head.</li>\n
+        \n<li>3.Exhale and fold forward at the hips, bringing your torso down towards your legs.</li>\n
+        \n<li>4.Place your hands on the ground, fingertips in line with your toes.</li>\n
+        \n<li>5.Inhale and lift your chest and head up, lengthening your spine.</li>\n
+        \n<li>6.Exhale and slowly start to straighten your legs, drawing your head and chest towards your thighs.</li>\n
+        \n<li>7.If you can, bring your palms or fingertips to the ground on either side of your feet.</li>\n
+        \n<li>8.Keep your gaze forward or down towards the ground.</li>\n
+        \n<li>9.Hold the pose for several deep breaths, focusing on relaxing your hamstrings and lengthening your spine.</li>\n
+        \n<li>10.To release the pose, inhale and slowly lift your torso back up to a standing position.</li>\n
+    </string>
+    <string name="tadasana_yoga"><li>1.Begin by standing at the front of your yoga mat with your feet hip-width apart and your arms resting at your sides.</li>\n
+        \n<li>2.Spread your toes wide and press down evenly through the soles of your feet.</li>\n
+        \n<li>3.Engage your leg muscles and draw your kneecaps up towards your thighs.</li>\n
+        \n<li>4.Lengthen your spine upwards and draw your shoulder blades down and back.</li>\n
+        \n<li>5.Bring your arms up alongside your ears, with your palms facing each other.</li>\n
+        \n<li>6.Keep your gaze straight ahead and relax your face and jaw.</li>\n
+        \n<li>7.Breathe deeply and smoothly, drawing the breath down into your belly.</li>\n
+        \n<li>8.Hold the pose for several deep breaths, focusing on grounding down through your feet and lengthening up through the crown of your head.</li>\n
+        \n<li>9.To release the pose, exhale and lower your arms back down to your sides.</li>\n
+    </string>
+    <string name="padangusthasana_yoga"><li>1.Begin by standing at the front of your yoga mat with your feet hip-width apart and your arms resting at your sides.</li>\n
+        \n<li>2.Inhale and lift your arms up above your head.</li>\n
+        \n<li>3.Exhale and fold forward at the hips, bringing your torso down towards your legs.</li>\n
+        \n<li>4.Bend your knees slightly and place your fingertips on the ground in front of your toes.</li>\n
+        \n<li>5.Inhale and lengthen your spine, lifting your chest and head up.</li>\n
+        \n<li>6.Exhale and start to straighten your legs, drawing your head and chest towards your thighs.</li>\n
+        \n<li>7.Reach your index and middle fingers around your big toes and grip them firmly.</li>\n
+        \n<li>8.Inhale and lift your chest and head up, lengthening your spine.</li>\n
+        \n<li>9.Exhale and draw your elbows out to the sides, bringing your chest and head closer to your legs.</li>\n
+        \n<li>10.Hold the pose for several deep breaths, focusing on relaxing your hamstrings and lengthening your spine.</li>\n
+        \n<li>11.To release the pose, exhale and release your toes, slowly lifting your torso back up to a standing position.</li>\n
+    </string>
+    <string name="ardha_Uttanasana_yoga"><li>1.Begin by standing at the front of your yoga mat with your feet hip-width apart and your arms resting at your sides.</li>\n
+        \n<li>2.Inhale and lift your arms up above your head.</li>\n
+        \n<li>3.Exhale and fold forward at the hips, bringing your torso down towards your legs.</li>\n
+        \n<li>4.Place your fingertips on the ground in front of your toes and lengthen your spine.</li>\n
+        \n<li>5.Inhale and lift your chest and head up, lengthening your spine even more.</li>\n
+        \n<li>6.Exhale and start to straighten your legs, drawing your head and chest towards your thighs.</li>\n
+        \n<li>7.Stop when your torso is parallel to the ground, or as far as feels comfortable for you.</li>\n
+        \n<li>8.Place your hands on your hips or on your shins, with your palms facing down.</li>\n
+        \n<li>9.Breathe deeply and smoothly, focusing on stretching the backs of your legs and lengthening your spine.</li>\n
+        \n<li>10.Hold the pose for several deep breaths, or as long as feels comfortable.</li>\n
+        \n<li>11.To release the pose, inhale and slowly lift your torso back up to a standing position.</li>\n
+    </string>
+    <string name="sukhasana_yoga"><li>1.Begin by sitting on your yoga mat with your legs crossed and your hands resting on your knees.</li>\n
+        \n<li>2.Make sure your spine is straight and your shoulders are relaxed.</li>\n
+        \n<li>3.Adjust your legs so that your knees are lower than your hips, and your feet are comfortably placed under your knees.</li>\n
+        \n<li>4.Place your hands in a comfortable position on your knees or in your lap.</li>\n
+        \n<li>5.Breathe deeply and smoothly, focusing on relaxing your body and quieting your mind.</li>\n
+        \n<li>6.Hold the pose for several minutes, or as long as feels comfortable.</li>\n
+        \n<li>7.To release the pose, gently uncross your legs and come to a comfortable seated position.</li>\n
+    </string>
+    <string name="ardha_Padmasana_yoga"><li>1.Begin by sitting on your yoga mat with your legs straight out in front of you.</li>\n
+        \n<li>2.Bend your right knee and place your right foot on top of your left thigh, bringing your heel close to your hip.</li>\n
+        \n<li>3.Flex your left foot and place it under your right thigh, with your left knee pointing forward.</li>\n
+        \n<li>4.Place your hands on your knees, with your palms facing down.</li>\n
+        \n<li>5.Lengthen your spine and sit up tall, keeping your shoulders relaxed.</li>\n
+        \n<li>6.Breathe deeply and smoothly, focusing on relaxing your body and quieting your mind.</li>\n
+        \n<li>7.Hold the pose for several deep breaths, or as long as feels comfortable.</li>\n
+        \n<li>8.To release the pose, gently uncross your legs and come to a comfortable seated position.</li>\n
+        \n<li>9.Repeat the pose on the other side, crossing your left foot over your right thigh and placing your right foot under your left thigh.</li>\n
+    </string>
+    <string name="upavistha_Konasana_yoga"><li>1.Begin by sitting on your yoga mat with your legs straight out in front of you.</li>\n
+        \n<li>2.Open your legs as wide as feels comfortable, keeping your toes pointing up towards the ceiling.</li>\n
+        \n<li>3.Flex your feet and engage your leg muscles to help protect your knees.</li>\n
+        \n<li>4.Place your hands on the floor in front of you, between your legs.</li>\n
+        \n<li>5.Lengthen your spine and sit up tall, keeping your shoulders relaxed.</li>\n
+        \n<li>6.On an exhale, begin to walk your hands forward, lowering your torso towards the floor.</li>\n
+        \n<li>7.Continue to walk your hands forward as far as feels comfortable, keeping your spine straight.</li>\n
+        \n<li>8.If you can reach the floor, place your hands on the ground and allow your head to relax between your arms.</li>\n
+        \n<li>9.Breathe deeply and smoothly, focusing on relaxing your body and quieting your mind.</li>\n
+        \n<li>10.Hold the pose for several deep breaths, or as long as feels comfortable.</li>\n
+        \n<li>11.To release the pose, slowly walk your hands back towards your body, lifting your torso back up to a seated position.</li>\n
+    </string>
+    <string name="paschimottanasana_yoga"><li>1.Begin by sitting on your yoga mat with your legs straight out in front of you.</li>\n
+        \n<li>2.Sit up tall and lengthen your spine, keeping your shoulders relaxed.</li>\n
+        \n<li>3.Flex your feet and engage your leg muscles to help protect your knees.</li>\n
+        \n<li>4.On an inhale, raise your arms up above your head, reaching towards the ceiling.</li>\n
+        \n<li>5.On an exhale, hinge forward at your hips, bringing your torso towards your legs.</li>\n
+        \n<li>6.Reach your hands towards your feet or shins, keeping your spine straight.</li>\n
+        \n<li>7.Breathe deeply and smoothly, focusing on relaxing your body and quieting your mind.</li>\n
+        \n<li>8.Hold the pose for several deep breaths, or as long as feels comfortable.</li>\n
+        \n<li>9.To release the pose, slowly lift your torso back up to a seated position.</li>\n
+    </string>
+    <string name="baddha_konasana_yoga"><li>1.Begin by sitting on your yoga mat with your legs straight out in front of you.</li>\n
+        \n<li>2.Bend your knees and bring the soles of your feet together, allowing your knees to fall out to the sides.</li>\n
+        \n<li>3.Clasp your hands around your feet, ankles, or shins, depending on your flexibility.</li>\n
+        \n<li>4.Sit up tall and lengthen your spine, keeping your shoulders relaxed.</li>\n
+        \n<li>5.Flex your feet and engage your leg muscles to help protect your knees.</li>\n
+        \n<li>6.On an exhale, gently press your knees towards the floor, using your elbows to help deepen the stretch.</li>\n
+        \n<li>7.Breathe deeply and smoothly, focusing on relaxing your body and quieting your mind.</li>\n
+        \n<li>8.Hold the pose for several deep breaths, or as long as feels comfortable.</li>\n
+        \n<li>9.To release the pose, slowly lift your torso back up to a seated position.</li>\n
+    </string>
+    <string name="vrksasana_yoga"><li>1.Begin by standing tall on your yoga mat with your feet together and your arms at your sides.</li>\n
+        \n<li>2.Shift your weight onto your left foot and lift your right foot off the ground.</li>\n
+        \n<li>3.Place the sole of your right foot on the inside of your left thigh, with your toes pointing down.</li>\n
+        \n<li>4.Bring your hands together in front of your heart in prayer position, or raise your arms up overhead.</li>\n
+        \n<li>5.Press your left foot firmly into the ground and engage your leg muscles to help maintain your balance.</li>\n
+        \n<li>6.Keep your gaze steady and focus on a point in front of you to help improve your concentration.</li>\n
+        \n<li>7.Breathe deeply and smoothly, holding the pose for several deep breaths, or as long as feels comfortable.</li>\n
+        \n<li>8.To release the pose, slowly lower your right foot back down to the ground and return to a standing position.</li>\n
+    </string>
+    <string name="parvatasana_in_Virasana_yoga"><li>1.Begin by sitting on your yoga mat in Virasana (Hero Pose), with your knees together and your shins and feet on the floor.</li>\n
+        \n<li>2.Bring your hands to your knees and sit up tall, lengthening your spine and relaxing your shoulders.</li>\n
+        \n<li>3.On an inhale, lift your arms up overhead, reaching your fingertips towards the ceiling.</li>\n
+        \n<li>4.As you exhale, bring your palms together in front of your heart, or place your hands on the back of your neck or upper back.</li>\n
+        \n<li>5.Keep your shoulders relaxed and away from your ears, and engage your core muscles to help maintain good posture.</li>\n
+        \n<li>6.Breathe deeply and smoothly, feeling the stretch in your arms, shoulders, and upper back.</li>\n
+        \n<li>7.Hold the pose for several deep breaths, or as long as feels comfortable.</li>\n
+        \n<li>8.To release the pose, lower your arms back down to your knees and sit quietly in Virasana for a few moments, breathing deeply and allowing your body to relax.</li>\n
+    </string>
+    <string name="trikonasana_yoga"><li>1.Begin by standing tall on your yoga mat with your feet about hip-width apart.</li>\n
+        \n<li>2.Turn your right foot out 90 degrees, and pivot your left foot slightly inward.</li>\n
+        \n<li>3.On an inhale, raise your arms out to the sides, parallel to the floor, with your palms facing down.</li>\n
+        \n<li>4.On an exhale, reach your right arm forward and then down towards your right foot, while keeping your left arm extended up towards the ceiling.</li>\n
+        \n<li>5.Place your right hand on your shin, ankle, or on the floor outside your right foot, depending on your flexibility.</li>\n
+        \n<li>6.Stretch your left arm up towards the ceiling, and gaze up towards your left hand.</li>\n
+        \n<li>7.Keep your legs straight and engage your leg muscles to help maintain your balance.</li>\n
+        \n<li>8.Breathe deeply and smoothly, feeling the stretch in your side body and hamstrings.</li>\n
+        \n<li>9.Hold the pose for several deep breaths, or as long as feels comfortable.</li>\n
+        \n<li>10.To release the pose, inhale and slowly rise back up to standing, then repeat the pose on the opposite side.</li>\n
+    </string>
+    <string name="bharadvajasana_yoga"><li>1.Begin by sitting on your yoga mat with your legs extended out in front of you.</li>\n
+        \n<li>2.Shift your weight onto your right buttock and bend your knees, bringing your feet towards your left hip.</li>\n
+        \n<li>3.Take your left hand and hold onto your right knee, twisting your torso to the right.</li>\n
+        \n<li>4.Place your right hand on the floor behind you, or on your lower back.</li>\n
+        \n<li>5.Hold the pose for several deep breaths, feeling the stretch in your spine and shoulders.</li>\n
+        \n<li>6.To release the pose, slowly unwind your torso and return to a seated position with your legs extended out in front of you.</li>\n
+        \n<li>7.Repeat the pose on the opposite side, bending your knees towards your right hip and twisting your torso to the left.</li>\n
+    </string>
+    <string name="supta_badhha_konsana_yoga"><li>1.Begin by sitting on your mat with your legs extended in front of you.</li>\n
+        \n<li>2.Bend your knees and bring the soles of your feet together, allowing your knees to fall out to the sides.</li>\n
+        \n<li>3.Use your hands to gently pull your heels towards your groin, bringing your feet as close to your body as possible without straining.</li>\n
+        \n<li>4.Lie back onto the mat, supporting yourself with pillows or blocks if needed.</li>\n
+        \n<li>5.Allow your arms to rest at your sides with your palms facing up, or place one hand on your heart and the other on your belly.</li>\n
+        \n<li>6.Close your eyes and take slow, deep breaths, relaxing your body completely.</li>\n
+        \n<li>7.Stay in the pose for 5-10 minutes, or as long as feels comfortable.</li>\n
+    </string>
+    <string name="salabhasana_yoga"><li>1.</li>\n
+        \n<li>2.Lie face down on your mat with your arms alongside your body, palms facing down.</li>\n
+        \n<li>3.Take a deep breath in, and on the exhale, lift your head, chest, arms, and legs off the ground as high as you can, keeping your gaze forward and your neck long.</li>\n
+        \n<li>4.Keep your legs and feet together, and engage your glutes and lower back muscles to lift your legs and torso higher.</li>\n
+        \n<li>5.Keep your shoulders relaxed away from your ears, and lengthen through your fingertips and toes.</li>\n
+        \n<li>6.Hold the pose for 5-10 deep breaths, then release back down to the mat on an exhale.</li>\n
+        \n<li>7.Repeat the pose 2-3 times, taking a short rest between each repetition.</li>\n
+    </string>
+    <string name="adho_mukha_savanasana_yoga"><li>1.Begin on your hands and knees, with your wrists directly under your shoulders and your knees directly under your hips.</li>\n
+        \n<li>2.Spread your fingers wide and press down through your palms and knuckles, while lifting up through your forearms.</li>\n
+        \n<li>3.Tuck your toes under and as you exhale, lift your knees off the floor and straighten your legs to come into an inverted V-shape.</li>\n
+        \n<li>4.Lengthen your spine by reaching your tailbone towards the ceiling, and press your heels towards the ground.</li>\n
+        \n<li>5.Relax your head and neck, and gaze towards your navel or between your legs.</li>\n
+        \n<li>6.Take slow, deep breaths, and hold the pose for 5-10 breaths.</li>\n
+        \n<li>7.To release, bend your knees and lower them to the ground, coming back to your hands and knees.</li>\n
+    </string>
 
 
 </resources>

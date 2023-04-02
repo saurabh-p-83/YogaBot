@@ -1,6 +1,7 @@
 package com.example.yogabot;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 
@@ -19,9 +20,20 @@ public class splashscreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
+                SharedPreferences sharedPreferences = getSharedPreferences(login.PRFS_NAME,0);
+                boolean hasLoggedIn = sharedPreferences.getBoolean("hasLoggedIn",false);
+                if(hasLoggedIn){
+                    startActivity(iNext);
+                    finish();
+                }
+                else{
+                    Intent iNext = new Intent(splashscreen.this, login.class );
+                    startActivity(iNext);
+                    finish();
+                }
 
-                startActivity(iNext);
-                finish();
+
+
             }
         },200);
 

@@ -37,7 +37,6 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/fitness_cardView"
-                android:onClick="fitness_ocl"
                 android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center_horizontal"

@@ -39,30 +39,31 @@
             android:orientation="vertical">
 
 
-
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="trikonasana_ocl"
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="5"
                     android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
+                    android:padding="1dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Trikonasana (Triangle pose)"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
@@ -71,19 +72,14 @@
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
+
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
+                    android:layout_weight="20"
+                    android:src="@drawable/trikonasana" />
             </LinearLayout>
 
             <TableRow
@@ -97,26 +93,28 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="bhardvajasana_ocl"
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="5"
                     android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
+                    android:padding="1dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Bharadvajasana (Gentle Spinal Twist)"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
@@ -125,19 +123,13 @@
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
+                    android:layout_weight="20"
+                    android:src="@drawable/baradvajasana" />
             </LinearLayout>
 
             <TableRow
@@ -151,26 +143,28 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="adhoMukhaSvanasana_ocl"
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="5"
                     android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
+                    android:padding="1dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Adho Mukha Svanasana (Downward dog)"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
@@ -179,19 +173,13 @@
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
+                    android:layout_weight="20"
+                    android:src="@drawable/downward_dog" />
             </LinearLayout>
 
             <TableRow
@@ -205,26 +193,28 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="salabhasana_ocl"
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="5"
                     android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
+                    android:padding="1dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Salabhasana (Locust pose)"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
@@ -233,19 +223,13 @@
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
+                    android:layout_weight="20"
+                    android:src="@drawable/locust_pose" />
             </LinearLayout>
 
             <TableRow
@@ -259,26 +243,28 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="tadasana_ocl"
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="5"
                     android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
+                    android:padding="1dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Tadasana 2 (Mountain Pose 2)"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
@@ -287,19 +273,13 @@
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
+                    android:layout_weight="20"
+                    android:src="@drawable/talasana_2" />
             </LinearLayout>
 
             <TableRow
@@ -313,26 +293,28 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="savasana_ocl"
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="5"
                     android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
+                    android:padding="1dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Savasana (Corpse Pose)"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
@@ -341,19 +323,13 @@
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
+                    android:layout_weight="20"
+                    android:src="@drawable/corpse_pose" />
             </LinearLayout>
 
             <TableRow
@@ -367,26 +343,28 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="baddhaKonsana_ocl"
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="5"
                     android:orientation="vertical"
-                    android:padding="1dp"
-                    android:layout_weight="5">
+                    android:padding="1dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="MALASANA (Garland Pose)"
+                        android:text="Baddha Konasana (Bound angle)"
                         android:textColor="#E82B2B"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:padding="1dp"
@@ -395,19 +373,13 @@
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="3st line here"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/malasanaimg"
-                    android:layout_weight="20"/>
+                    android:layout_weight="20"
+                    android:src="@drawable/bound_angle" />
             </LinearLayout>
 
             <TableRow

@@ -3,6 +3,7 @@ package com.example.yogabot;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -14,6 +15,7 @@ import android.widget.Toast;
 public class login extends AppCompatActivity {
     private EditText mUsernameEditText;
     private EditText mPasswordEditText;
+    public static String PRFS_NAME = "MyPrefsFile";
     DBHelper DB;
 
 
@@ -28,6 +30,8 @@ public class login extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                SharedPreferences sharedPreferences = getSharedPreferences(login.PRFS_NAME, 0);
+                sharedPreferences.edit().putBoolean("hasLoggedIn", true).commit();
                 String email = mUsernameEditText.getText().toString().trim();
                 String password = mPasswordEditText.getText().toString().trim();
 
@@ -64,6 +68,10 @@ public class login extends AppCompatActivity {
         });
     }
 
+    public void signin_signup(View view) {
+        Intent intent = new Intent(getBaseContext(), signup.class);
+        startActivity(intent);
+    }
 }
 
 
