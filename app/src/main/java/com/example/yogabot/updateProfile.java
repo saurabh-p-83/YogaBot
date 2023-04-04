@@ -18,14 +18,17 @@ public class updateProfile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update_profile);
+        // Initialize EditText variables with their respective IDs
         id_weight = findViewById(R.id.id_weight);
         id_phonenumber = findViewById(R.id.id_phoneNumber);
         id_height = findViewById(R.id.id_height);
         id_name = findViewById(R.id.id_name);
         id_age = findViewById(R.id.id_age);
         id_email = findViewById(R.id.id_email);
+        // Create an instance of DBHelper class to fetch data from the database
         DBHelper dbHelper = new DBHelper(this);
         ArrayList<UserDetail> arrUser = dbHelper.fetchData();
+        // Iterate through each UserDetail object and set their data to respective EditText fields
         for (int i = 0; i < arrUser.size(); i++) {
             UserDetail user = arrUser.get(i);
             id_name.setText(user.getName());
@@ -39,15 +42,19 @@ public class updateProfile extends AppCompatActivity {
 
         }
     }
+    // Function to update user's profile with the new data entered in the EditText fields
     public void updateMyProfile(View view){
+        // Fetch the data entered in the EditText fields and convert them to respective data types
         String name = id_name.getText().toString();
         String  phonenumber = id_phonenumber.getText().toString();
         String email = id_email.getText().toString();
         int weight = Integer.parseInt(id_weight.getText().toString());
         int age = Integer.parseInt(id_age.getText().toString());
         int height = Integer.parseInt(id_height.getText().toString());
+        // Create an instance of DBHelper class to update the user's data in the database
         DBHelper dbHelper = new DBHelper(this);
         boolean b = dbHelper.updateProfileHelper(name, age, height, weight, phonenumber, email);
+        // Show a success/error message based on whether the data was updated successfully or not
         if(b){
             Toast.makeText(this, "Values Updated Successfully!", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(updateProfile.this, MainActivity.class);
@@ -60,3 +67,5 @@ public class updateProfile extends AppCompatActivity {
 
     }
 }
+
+

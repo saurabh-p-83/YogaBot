@@ -23,27 +23,29 @@ import java.util.ArrayList;
  * create an instance of this fragment.
  */
 public class userProfile extends Fragment {
-    TextView username_input_name,username_input_email, username_input_phoneNumber, username_input_height, username_input_age;
+
+    // Define the TextViews that will display the user's information
+    TextView username_input_name, username_input_email, username_input_phoneNumber, username_input_height, username_input_age, username_input_weight;
+
+    // Define a string to hold the user's email address
     String email;
-    UserDetail arrUser;
 
+    // Define an ArrayList to hold the user's details
+    ArrayList<UserDetail> arrUser;
 
+    // Required empty public constructor
+    public userProfile() {}
 
-    public userProfile() {
-        // Required empty public constructor
-    }
-
+    // Factory method to create a new instance of the fragment
     public static userProfile newInstance(String param1, String param2) {
         userProfile fragment = new userProfile();
         Bundle args = new Bundle();
         return fragment;
-
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
 
     @Override
@@ -52,17 +54,14 @@ public class userProfile extends Fragment {
 
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_user_profile, container, false);
+
+        // Find the login and edit buttons in the layout and assign click listeners
         Button profile_login_button = view.findViewById(R.id.profile_login_button);
         Button profile_edit_button = view.findViewById(R.id.profile_edit_button);
-        TextView username_input_name = view.findViewById(R.id.username_input_name);
-        TextView username_input_email  = view.findViewById(R.id.username_input_email);
-        TextView username_input_age  = view.findViewById(R.id.username_input_age);
-        TextView username_input_phoneNumber  = view.findViewById(R.id.username_input_phoneNumber);
-        TextView username_input_height  = view.findViewById(R.id.username_input_height);
-        TextView username_input_weight  = view.findViewById(R.id.username_input_weight);
         profile_login_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Create an intent to launch the login activity
                 Intent intent = new Intent(getActivity(), login.class);
                 startActivity(intent);
             }
@@ -70,13 +69,25 @@ public class userProfile extends Fragment {
         profile_edit_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Create an intent to launch the update profile activity
                 Intent intent = new Intent(getActivity(), updateProfile.class);
                 startActivity(intent);
             }
         });
 
-       DBHelper dbHelper = new DBHelper(getContext());
-       ArrayList<UserDetail> arrUser = dbHelper.fetchData();
+        // Find the TextViews in the layout and assign them to instance variables
+        username_input_name = view.findViewById(R.id.username_input_name);
+        username_input_email = view.findViewById(R.id.username_input_email);
+        username_input_age = view.findViewById(R.id.username_input_age);
+        username_input_phoneNumber = view.findViewById(R.id.username_input_phoneNumber);
+        username_input_height = view.findViewById(R.id.username_input_height);
+        username_input_weight = view.findViewById(R.id.username_input_weight);
+
+        // Create a DBHelper object and fetch the user's details from the database
+        DBHelper dbHelper = new DBHelper(getContext());
+        arrUser = dbHelper.fetchData();
+
+        // Loop through the ArrayList of user details and set the TextViews to display the values
         for (int i = 0; i < arrUser.size(); i++) {
             UserDetail user = arrUser.get(i);
             username_input_name.setText(user.getName());
@@ -92,9 +103,7 @@ public class userProfile extends Fragment {
             // Set the values for other TextViews as needed
         }
 
-
-
+        // Return the inflated view
         return view;
     }
-
 }

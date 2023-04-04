@@ -15,17 +15,21 @@ import com.google.android.material.navigation.NavigationBarView;
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView navigationView;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Get a reference to the BottomNavigationView in the layout
         navigationView = findViewById(R.id.navigationBar1);
+
+        // Set a listener for when items in the navigation bar are selected
         navigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 Fragment fragment = null;
+
+                // Determine which item in the navigation bar was selected and create a new fragment accordingly
                 switch (item.getItemId()){
                     case R.id.home:
                         fragment = new HomeFragment();
@@ -40,13 +44,13 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new userProfile();
                         break;
                 }
+
+                // Replace the current fragment with the new fragment
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainerView6 , fragment).commit();
+
+                // Return true to indicate that the item selection was handled
                 return true;
             }
         });
-
-
-
     }
-
 }

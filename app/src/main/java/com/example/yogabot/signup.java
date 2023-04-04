@@ -13,6 +13,7 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 public class signup extends AppCompatActivity {
+    // declaring variables for all the input fields, button and radio group
     EditText et_UserName, et_age, et_weight, et_height, et_phoneNumber,et_EmailAddress, et_password, et_confirmPassword;
     Button signUp_button;
     RadioGroup et_gender;
@@ -22,6 +23,7 @@ public class signup extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
+        // initializing all the input fields, button and radio group
         signUp_button = findViewById(R.id.signUp_button);
         et_UserName = findViewById(R.id.et_UserName);
         et_age = findViewById(R.id.et_age);
@@ -33,9 +35,11 @@ public class signup extends AppCompatActivity {
         et_password = findViewById(R.id.et_password);
         DB = new DBHelper(this);
         et_confirmPassword = findViewById(R.id.et_confirmPassword);
+        // adding OnClickListener to the signUp_button to handle the button click event
         signUp_button.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
+                // getting input values from all the input fields
                 String username = et_UserName.getText().toString();
                 int userAge = Integer.parseInt(et_age.getText().toString());
                 int userWeight = Integer.parseInt(et_weight.getText().toString());
@@ -44,6 +48,7 @@ public class signup extends AppCompatActivity {
                 String password = et_password.getText().toString();
                 String userEmail = et_EmailAddress.getText().toString();
                 String confirmPassword = et_confirmPassword.getText().toString();
+                // validating user input
                 if (TextUtils.isEmpty(et_UserName.getText().toString())){
                     et_UserName.setError("Enter Your Name");
                     return;
@@ -76,14 +81,16 @@ public class signup extends AppCompatActivity {
                     et_confirmPassword.setError("Confirm Your Password");
                     return;
                 }
-
+                // if all input fields are valid, check if the user already exists in the database
                 else{
                     if (password.equals(confirmPassword)){
                         Boolean checkuser = DB.checkuserEmailAddress(userEmail);
                         if (checkuser == false){
+                            // If the email doesn't exist, insert the data into the database
                             Boolean insert = DB.insertData(username, userAge, userWeight, userHeight, userPhoneNumber, userEmail, password);
                             if (insert == true){
                                 Toast.makeText(signup.this, "Registered successfully", Toast.LENGTH_SHORT).show();
+                                // If the data is successfully inserted, start the MainActivity
                                 Intent intent = new Intent(signup.this, MainActivity.class);
                                 startActivity(intent);
                             }
@@ -96,6 +103,7 @@ public class signup extends AppCompatActivity {
 
                         }
                     }
+                    // if the password is  not match
                     else{
                         et_confirmPassword.setError("Passwords do not match");
                     }
@@ -106,6 +114,7 @@ public class signup extends AppCompatActivity {
             }
         });
     }
+    // Pass the intent with signup to login activity
 
     public void signup_signin(View view) {
         Intent intent = new Intent(signup.this, login.class);
